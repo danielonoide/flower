@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #ffb7e1; */
+    /* background: radial-gradient(circle at center, white 30%, #ffaab8 70%); */
+}
+
+
+.center-container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
