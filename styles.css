@@ -2,12 +2,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
-    /* background-color: #ffb7e1; */
-    /* background: radial-gradient(circle at center, white 30%, #ffaab8 70%); */
+    background: radial-gradient(circle at center, white 30%, #ffaab8 70%);
 }
-
 
 .center-container {
     width: auto;
@@ -23,3 +21,27 @@ h1 {
     font-family: 'Pacifico', cursive;
     font-size: 60px;
 }
+
+
+canvas {
+    max-width: 100%; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px; 
+        top: 100px;
+    }
+
+    img {
+        height: 52px;
+        width: 52px;
+    }
+    
+    canvas{
+        height: 130px;
+        width: 130px;
+    }
+}
+
