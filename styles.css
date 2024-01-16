@@ -16,3 +16,10 @@ body {
     align-items: center;
     height: 100%;
 }
+
+h1 {
+    position: absolute;
+    top: 20px; 
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+}

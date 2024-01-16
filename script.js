@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         context.rotate(startAt);  // set start angle
         for(var i = 0; i < count; i+= 1){
             //context.stroke(petal);  // draw a petal
-            context.fill(petal);  // draw a petal
+            context.fill(petal);  // draw a petal filling
             context.rotate(step);   // rotate to the next
         }
         context.setTransform(1, 0, 0, 1, 0, 0);  // restore default
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         index=index+1 == bgColors.length ? 0 : index+1;
         const newColor = bgColors[index];
 
-        // Modificar el segundo color de la gradiente radial
+        //to  modify the second color of the radial gradient
         body.style.background = body.style.background.replace(currentColor, newColor);
 
     }
