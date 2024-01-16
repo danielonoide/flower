@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const step = (Math.PI * 2) / count;
         context.setTransform(1, 0, 0, 1, x, y); // set center
         context.rotate(startAt);  // set start angle
-        for(var i = 0; i < count; i+= 1){
+        for(var i = 0; i < count; i++){
             //context.stroke(petal);  // draw a petal
             context.fill(petal);  // draw a petal filling
             context.rotate(step);   // rotate to the next
